@@ -1,0 +1,9 @@
+.vscode
+.idea
+.DS_Store
+node_modules
+.env
+*.psd
+.log
+.txt
+error
