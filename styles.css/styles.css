@@ -2,3 +2,8 @@ p {
   color: darkblue;
   font-size: 36px;
 }
+
+p {
+  color: indigo;
+  font-size: small;
+}
