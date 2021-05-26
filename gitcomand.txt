@@ -1,0 +1,22 @@
+#  Выжимка команд для работы с GIT
+
+$ git config --list --show-origin-Чтобы посмотреть все установленные настройки и узнать где именно они заданы;
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com - указать ваше имя и адрес
+электронной почты.
+$ git config --global init.defaultBranch main - чтобы установить имя main для вашей ветки по умолчанию, 
+ git config --list - проверка настроек GIT по умолчанию.
+ $ git help <команда>
+$ git <команда> --help
+$ man git-<команда> - как получить помощь по командам GIT.
+git comand -h - выводит краткую помощь по конкретной comand.
+ cd C:/Users/user/my_project переход в Windows в каталог в котором нужно создать репозиторий.
+  git init -создать каталог или инициализировать.
+  git clone https://github.com/libgit2/libgit2 клонируешь репозиторий из GITHUB на локальный компьютер
+  git status -s - сокращенный вывод состояния GIT.
+  git status --short -тоже самое что и git status -s.
+  git diff - покажет разницу от последнего сохранения.
+  git diff --staged -покажет разницу между двумя индексами.
+  git diff --cached - покажет разницу между двумя проиндексированими изменениями.
+  git difftool --tool-help- выводит список команд с графическим интерфейсом для просмотра изменений.
+  git commit - 
